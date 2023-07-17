@@ -11,6 +11,8 @@ if [[ -z $1 ]]; then
 else
   if [[ $1 =~ ^[clear]+$ || $1 =~ ^[cls]+$ ]]; then
     clear
+  elif [[ $1 =~ ^[nodeflow]+$ || $1 =~ ^[nf]+$ ]]; then
+    source "$HOME_SOURCE/node_build.sh"
   elif [[ $1 =~ ^[help]+$ || $1 =~ ^[h]+$ ]]; then 
     source "$HOME_SOURCE/help.sh"
   elif [[ $1 =~ ^[update]+$ ]]; then
