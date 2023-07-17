@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "katzu's Utils Help"
 echo ""
 echo "  clear"
