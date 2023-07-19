@@ -13,6 +13,8 @@ else
     clear
   elif [[ $1 =~ ^[nodeflow]+$ || $1 =~ ^[nf]+$ ]]; then
     source "$HOME_SOURCE/node_build.sh"
+  elif [[ $1 =~ ^[ignored]+$ || $1 =~ ^[ig]+$ ]]; then
+    source "$HOME_SOURCE/ignored.sh"
   elif [[ $1 =~ ^[help]+$ || $1 =~ ^[h]+$ ]]; then 
     source "$HOME_SOURCE/help.sh"
   elif [[ $1 =~ ^[update]+$ ]]; then
