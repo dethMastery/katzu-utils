@@ -14,10 +14,10 @@ if [[ $option =~ ^[y]+$ || $option =~ ^[Y]+$ ]]; then
   rm install.sh
 
   cp ~/.zshrc ~/.zshrc-kUtils-bak
-  echo -e '\n\n# katzu Utils \nalias ku="~/.config/.kUtils/run.sh"' >> ~/.zshrc
+  echo -e '\n\n# katzu Utils \nalias ku="~/.config/.kUtils/main.sh"' >> ~/.zshrc
   sleep 1 &
   wait
-  clear
+  # clear
   
   echo "'katsu's Utils' is installed to your console"
   echo "please run 'source ~/.zshrc' first"
