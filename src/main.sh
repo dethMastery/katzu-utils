@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# BASE_SOURCE="$HOME/.config/.kUtils"
-BASE_SOURCE="$HOME/repo/katsu-zu/katzu-utils/src"
+BASE_SOURCE="$HOME/.config/.kUtils"
+# BASE_SOURCE="$HOME/repo/katsu-zu/katzu-utils/src"
 HOME_SOURCE="$BASE_SOURCE/scripts"
 
 if [[ -z $1 ]]; then
